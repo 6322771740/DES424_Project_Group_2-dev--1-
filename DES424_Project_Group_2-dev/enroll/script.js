@@ -191,3 +191,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // ... (other functions) ...
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // ... (your existing code) ...
+
+    window.getModules = function () {
+        // Redirect to lecture.html
+        window.location.href = "lecture.html";
+        return false;
+    };
+    
+    // ... (other functions) ...
+});
